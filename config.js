@@ -64,17 +64,23 @@ window.BIRTHDAY_CONFIG = {
   letterTitle: "Selamat Ulang Tahun, Sayangku! 🎉",
   letterParagraphs: [
     "Selamat ulang tahun untuk orang paling spesial di hidupku! 🎉✨ Hari ini adalah hari keberuntungan dunia karena menghadirkan kamu yang begitu indah.",
-    "Terima kasih ya sudah bertahan, berjuang, dan selalu menebarkan senyum manis kamu sampai detik ini. Kehadiran kamu di hari-hariku jadi lebih berwarna, tenang, dan berarti.",
-    "Di umur yang baru ini, aku berdoa semoga kamu selalu diberikan kesehatan, kebahagiaan yang melimpah, kelancaran di setiap impianmu, dan dikelilingi oleh hal-hal baik.",
-    "Jangan pernah ragu untuk melangkah, karena apapun yang terjadi, aku akan selalu ada di sini—jadi pendukung nomor satumu, tempat kamu cerita, dan alasan kamu tersenyum",
-    "Tapi, kamu tahu kan... ga lama lagi keadaan bakal sedikit beda. Kita bakal ada yang namanya jarak. Bentar lagi kita harus jalanin LDR-an yahh walaupun cuma 30menit perjalanan dan jujur dari aku pasti bakal ada rasa kangen ovt atau lainnya yang beda dari biasanya",
-    "Bakal ada hari-hari di mana aku cuma bisa dengar suara kamu lewat telepon atau liat senyum kamu lewat layar HP itupun kalo kamu sempet ngangkat teleponnyaa 😔.",
-    "Walaupun nanti ruang dan waktu misahin kita, aku mau kamu tahu kalau rasa sayang dan kepercayaan aku ke kamu nggak akan berkurang sedikit pun.",
-    "Aku cuma mau minta satu hal sederhana tapi berarti banget: tolong jaga hati kamu baik-baik buat aku yaaa.",
+    "Terima kasih ya sudah bertahan, berjuang, dan selalu menebarkan senyum manis kamu sampai detik ini. Kehadiran kamu di hari-hariku jadi lebih berwarna, tenang, dan berarti. ⋆.𐙚 ̊ ̊",
+    "Di umur yang baru ini, aku berdoa semoga kamu selalu diberikan kesehatan, kebahagiaan yang melimpah, kelancaran di setiap impianmu, dan dikelilingi oleh hal-hal baik.😊",
+    "Terkadang malam hari aku sering kepikiran sama kalimat aku terpana olehmu dan jika di puisikan mungkin kalimatnya gini",
+    "Teduh tatapmu,senyum manismu, marahmu, serta bagaiman caramu menatap sesuatu dengan lembut, aku jatuh hati pada segala hal tentang kamu☺️",
+    "Dari puisi tersebut mengajarkanku bahwa orang yang pernah singgah di aku mungkin mengajariku bahwa untuk bersiap menerima orang baru yang lebih baik dari sebelumnya",
+    "Puisi itu bukan dari penulis terkenal dan puisi itu tidak seromantis sapardi ataupun chairil anwar melainkan puisi buatan aku sendiri dan aku tulis itu terinspirasi dari kamu🌻",
+    "Jika saat itu aku ga seberuntung itu maka puisi ini tidak akan terwujud di depan layar saat ini🥺",
+    "Jangan pernah ragu untuk melangkah, karena apapun yang terjadi, aku akan selalu ada di sini—jadi pendukung nomor satumu, tempat kamu cerita, dan alasan kamu tersenyum🤗",
+    "Tapi, kamu tahu kan... ga lama lagi keadaan bakal sedikit beda yaa. Kita bakal ada yang namanya jarak, Bentar lagi kita harus jalanin LDR-an yahh walaupun cuma 30menit perjalanan dan jujur dari aku pasti bakal ada rasa kangen atau lainnya yang jauh beda dari biasanya",
+    "Bakal ada hari-hari di mana aku cuma bisa dengar suara kamu lewat telepon atau liat senyum kamu lewat layar HP itupun kalo kamu sempat 😔.",
+    "Walaupun nanti ruang dan waktu misahin kita, aku mau kamu tahu kalau rasa sayang dan kepercayaan aku ke kamu nggak akan pernah berkurang sedikit pun.",
+    "Aku cuma mau minta satu hal sederhana tapi berarti banget: tolong jaga hati kamu baik-baik buat aku yaaa.❤️‍🔥",
     "Jangan sampai jarak bikin kita asing, dan jangan biarin ragu merusak apa yang udah kita bangun. Di sini, aku juga janji bakal selalu jaga hati dan komitmen ini cuma buat kamu.",
+    "dan apapun itu ketika ada suatu hal kecil pun tolong kasih tau yaa, jangan sampai satu permasalahan kecil jadi besar karena gamau bilang satu sama lain🌸🌺",
     "Aku juga mau bilang makasi bangettt udah mau berusaha beradaptasi sama kebiasaan aku yang kadang nyebelin , yang cuek, yang sering ngaret , yang sering overthinking hahaa , mungkin emang ga mudah buat ngelewatin semua itu buttt kamu berhasil melewatinya dan aku bersyukur banget punya kamu .",
-    "I love you more than words can express! Aku masih mau buat lebih banyak kenangan indah sama kamu lagi ya!",
-    "Sekali lagi, happy birthday ya! Tetap jadi diri kamu yang luar biasa. I'm so proud of you, and I'll always be here for you, no matter how far. ✨❤️"
+    "I love you more than words can express! Aku juga masih mau buat lebih banyak kenangan indah sama kamu lagii!💐🌷",
+    "Sekali lagi, happy birthday yaa sayangg! Tetap jadi diri kamu yang luar biasa. I'm so proud of you, and I'll always be here for you, no matter how far no matter what happen between us . ✨❤️"
   ],
 
   // Galeri Foto Kenangan (Tampilan Grid Tumpukan Polaroid)
