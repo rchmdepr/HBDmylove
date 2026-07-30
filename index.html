@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Only My Love💖 | Qurotul Aeni💖</title>
+
+  <!-- SEO & OpenGraph Meta Tags -->
+  <meta name="description"
+    content="Koleksi rahasia kenangan dan ucapan selamat ulang tahun interaktif untuk orang paling tersayang." />
+  <meta name="theme-color" content="#170e26" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- App Styling -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Canvas Background Partikel Hati -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Toast Notification untuk Feedback Jawaban (Hewan Marah / Hewan Senang) -->
+  <div id="toast-popup" class="toast-popup" role="alert">
+    <span id="toast-animal" class="toast-animal">😾</span>
+    <span id="toast-message">Masa lupa sih? Coba ingat-ingat lagi! 💖</span>
+  </div>
+
+  <div class="app-container">
+
+    <!-- ====================================================================
+         PHASE 1: Lock Screen (Halaman Depan Gembok Digital)
+         ==================================================================== -->
+    <section id="phase-1" class="phase-section active">
+      <div class="glass-card">
+        <div class="badge-tag">
+          <i class="fa-solid fa-user-secret"></i> Misi For My lovee
+        </div>
+
+        <h1 class="lock-title">Happy Birthday My Love yang ke 23 Tahun !!</h1>
+        <p class="lock-subtitle">
+          Haiii sayangkuuu my love cintakuuu selamat ulang tahunnn! Tapi maap yaa,
+          ucapan dan hadiahnya dikunci rapat-rapat hehee.
+          oiya kuncinya cuman kamu yang bawa jadi gabisa dibuka selain kamu hahaa
+          coba kamu ingat" kunci buat buka gemboknya! hehe
+        </p>
+
+        <!-- Visual Gembok Digital -->
+        <div class="lock-visual-wrapper">
+          <div class="lock-outer-glow"></div>
+          <div class="lock-icon-box" id="lock-icon-box">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+        </div>
+
+        <!-- Indikator Kunci -->
+        <div class="key-indicators" id="key-dots-container">
+          <!-- Rendered via JS -->
+        </div>
+
+        <!-- Tombol Start -->
+        <button id="btn-start-mission" class="btn-primary" type="button">
+          <i class="fa-solid fa-key"></i> Are u ready lop? hehe
+        </button>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         PHASE 2: Interactive Challenge (Kuis Interaktif)
+         ==================================================================== -->
+    <section id="phase-2" class="phase-section">
+      <div class="glass-card quiz-card" id="quiz-card">
+        <div class="quiz-header">
+          <span class="quiz-step-badge" id="quiz-step-badge">Soal 1 dari 3</span>
+          <span class="badge-tag" style="margin-bottom: 0;"><i class="fa-solid fa-brain"></i> Soalnya mudah semua
+            kok</span>
+        </div>
+
+        <!-- Progress Bar Track -->
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="quiz-progress-bar"></div>
+        </div>
+
+        <!-- Pertanyaan -->
+        <h2 class="question-title" id="question-title">Loading pertanyaan...</h2>
+
+        <!-- Container Pilihan Ganda -->
+        <div class="options-grid" id="options-container">
+          <!-- Rendered via JS -->
+        </div>
+
+        <!-- Container Input Teks (Fallback Mode) -->
+        <div id="text-input-container" style="display: none;">
+          <input type="text" id="text-answer-input" class="text-answer-input"
+            placeholder="Ketik jawabanmu di sini..." />
+          <button id="btn-submit-text" class="btn-primary" type="button" style="margin-top: 10px;">
+            Submit Jawaban <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+
+        <!-- Hint Button & Box -->
+        <button id="hint-toggle-btn" class="hint-toggle" type="button">
+          <i class="fa-solid fa-lightbulb"></i> Butuh petunjuk sayang/hint?
+        </button>
+        <div id="hint-box" class="hint-box"></div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         PHASE 3: The Unlock Moment (Puncak Acara Animation)
+         ==================================================================== -->
+    <section id="phase-3" class="phase-section">
+      <div class="glass-card unlock-celebration-box">
+        <div class="big-unlocked-icon">
+          <i class="fa-solid fa-lock-open"></i>
+        </div>
+        <h1 class="lock-title" style="font-size: 3rem;">Gembok Terbuka! 🎉</h1>
+        <p class="lock-subtitle">
+          Selamat! Kamu berhasil mengumpulkan semua kunci kenangan. Kejutan spesialmu sedang disiapkan...
+        </p>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         PHASE 4: Celebration & Gift Hub (Halaman Hadiah Utama)
+         ==================================================================== -->
+    <section id="phase-4" class="phase-section">
+      <div class="gift-hub-container">
+
+        <!-- Hero Header -->
+        <header class="hero-header">
+          <div class="badge-tag">
+            <i class="fa-solid fa-cake-candles"></i> Special Birthday Gift
+          </div>
+          <h1 class="hero-title">Happy Birthday, <span id="partner-name">Sayang</span>! 🎂💖</h1>
+          <p class="hero-subtitle">Dari: <span id="sender-name">orang yang paling sering bikin kamu marah tapi selalu
+              sayang sama kamu💖.</span></p>
+        </header>
+
+        <!-- Lilin Ulang Tahun Interaktif -->
+        <div class="cake-section">
+          <div class="cake-box" id="cake-box" title="Klik lilin untuk tiup!">
+            <div class="candle-flame" id="candle-flame"></div>
+            <div class="cake-body"></div>
+            <div class="cake-icing"></div>
+          </div>
+          <span class="cake-hint" id="cake-hint">Klik lilinya sayang buat harapan dan lempar kembang api.
+            ✨</span>
+        </div>
+
+        <!-- Surat Ucapan (Amplop Interaktif) -->
+        <div class="glass-card letter-card">
+          <div class="letter-header">
+            <i class="fa-solid fa-envelope-open-text"></i>
+            <span id="letter-title">Aku ada surat spesial buat kamu juga</span>
+          </div>
+
+          <!-- Tampilan Amplop Tertutup -->
+          <div id="envelope-wrapper" class="envelope-wrapper">
+            <div class="envelope-box" id="envelope-box" title="Klik untuk membuka surat!">
+              <div class="envelope-flap"></div>
+              <div class="envelope-pocket"></div>
+              <div class="envelope-seal">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="envelope-prompt">
+              <span>Sayang amplop ini buat kamuu 💌✨</span>
+            </div>
+          </div>
+
+          <!-- Tampilan Isi Surat (Disembunyikan saat awal) -->
+          <div id="letter-content-wrapper" class="letter-content-wrapper" style="display: none;">
+            <div class="typewriter-content">
+              <span id="typewriter-text"></span>
+              <span class="typewriter-cursor"></span>
+            </div>
+
+            <div class="letter-actions">
+              <button id="btn-replay-letter" class="btn-secondary" type="button">
+                <i class="fa-solid fa-rotate-right"></i> Putar Ulang Teks
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Galeri Foto Kenangan (Grid Tumpukan Polaroid) -->
+        <div class="glass-card gallery-card">
+          <h2 class="section-heading">Andai waktu masih bisa diulang ku mau ada di tiap momen itu hahaa 📸</h2>
+          
+          <div class="photo-stacked-grid" id="photo-stacked-grid">
+            <!-- Rendered via JS as Polaroid Stacked Grid -->
+          </div>
+        </div>
+
+        <!-- Frame Video Kenangan (Terpisah di Bawah Foto) -->
+        <div class="glass-card video-card">
+          <h2 class="section-heading">Momen Video Singkat 🎥✨</h2>
+          <div class="video-frame-container" id="video-frame-container">
+            <!-- Rendered via JS -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Modal Lightbox Preview Foto -->
+  <div id="photo-lightbox" class="photo-lightbox">
+    <span class="lightbox-close" id="lightbox-close">&times;</span>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="" />
+      <div id="lightbox-title" class="lightbox-title"></div>
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Floating Music Controller Widget -->
+  <div class="floating-music-widget">
+    <button id="music-toggle-btn" class="music-toggle-btn" type="button" title="Play/Pause Audio">
+      <i id="music-icon" class="fa-solid fa-compact-disc"></i>
+    </button>
+    <div class="music-info-text">
+      <div class="music-title">Music for my love</div>
+      <div id="music-status-text">Audio Dibisukan</div>
+    </div>
+  </div>
+
+  <!-- Library CDN canvas-confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <!-- Application Logic -->
+  <script src="config.js"></script>
+  <script src="sfx.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
