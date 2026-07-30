@@ -116,7 +116,7 @@ window.BIRTHDAY_CONFIG = {
   videos: [
     {
       url: "assets/images/Vid.mp4", // Ganti dengan path file video kamu di folder assets/images/
-      title: "Backsoundya matiin dlu biar denger yah sayangg🎥",
+      title: "Biar ga nabrak suaranya backsoundya di off in dulu yaa sayangg🎥",
       caption: "Yang ada kamunya aku masukin semua hahaa , padahal banyak si yang lainnya tapi itu yg aku punya maapin yahh"
     }
   ],
