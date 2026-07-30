@@ -49,7 +49,7 @@ window.BIRTHDAY_CONFIG = {
       id: 3,
       difficulty: "Soal 3 (Spesial)",
       title: "Momen Paling Berkesan",
-      question: "kasih pesan kedepanya buat aku dong lopp hehe?",
+      question: "Sebelum masuk ke giftnya kamu ada bilang sesuatu ga ke aku selama ini, mungkin yang belum pernah kamu kasi tau ke aku? hehee",
       type: "text_input",
       // Jawaban apapun akan dianggap benar (wildcard "*") asalkan tidak kosong
       correctAnswer: "*",
